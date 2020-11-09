@@ -21,6 +21,7 @@ int main(void)
       y=z;*/
   }
   printf("Valor final: %d\n",cont);
+  
   getchar();
   return 0;
 }

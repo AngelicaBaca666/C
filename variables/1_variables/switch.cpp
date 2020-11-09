@@ -62,7 +62,7 @@ int main()
 	    printf( "La Raiz Cuadrada de %f es: %f" , b, c);
 		break;
 	case 7:
-		exit(0) ; //Salida	
+		exit(0) ; //Salida
 	default:
 		printf("No esta puesta correctamente la opcion\n");
 		exit(0);
