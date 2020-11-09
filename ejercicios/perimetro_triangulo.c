@@ -1,9 +1,6 @@
 #include <stdio.h>
-#include <math.h>
-#include<stdlib.h>
 
 int main()
-
 {
 	float a, b, c, Perimetro; //Declarando variables
 	
@@ -17,14 +14,9 @@ int main()
 	scanf ("%f", &c) ;
 	
 	Perimetro = a+b+c ; //Realiza calculo de perimetro
-	
 	printf ("Perimetro : %.2f\n" , Perimetro );
-	
-	
-	
-	
-	return 0;
-	
+
+	return 0;	
 }
 
 
