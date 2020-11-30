@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#include <stdlib.h>
+#include <windows.h>
 
 int main()
 {
@@ -32,7 +32,7 @@ int main()
 		scanf("%f", &n2);
 	}
 
-	//Estructura de control de selección multiple
+	//Estructura de control de selecciÃ³n multiple
 	switch(opcion)
 	{
 	case 1:
@@ -75,6 +75,3 @@ int main()
 		exit(0);
 	}	//Sale break
 } 
-
-
-

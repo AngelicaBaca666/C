@@ -2,12 +2,13 @@
 #include <math.h>
 #include <stdlib.h>
 
-int main()
+int main ()
 {
-	//Declarando variables
-	int opcion;
-	float n1, n2, resultado;
+int opcion ;
+	float n1 ,n2 ,resultado ;
 	
+do
+{
 	printf("Elige una opcion:\n");
 	printf("\t 1.- Suma\n");
 	printf("\t 2.- Resta\n");
@@ -19,23 +20,26 @@ int main()
 	scanf("%d",&opcion);
 	system("cls");
 	
+	do
+	{
 	if(opcion==6){
 		printf("\nDame el primer valor: ");
 		scanf("%f", &n1);
 	}
 	else if(opcion>=7){
 	}
-	else{
+	else {
 		printf("\nDame el primer valor: ");
 		scanf("%f", &n1);
 		printf("\nDame el segundo valor: ");
 		scanf("%f", &n2);
 	}
-
-	//Estructura de control de selección multiple
-	switch(opcion)
-	{
-	case 1:
+	
+} while ( opcion < '1' || opcion > '7' ) ;
+ 
+ switch (opcion)
+ {
+ 	case 1:
 		resultado = n1 + n2;
 		printf("%f", resultado);
 		break;
@@ -73,8 +77,13 @@ int main()
 	default:
 		printf("Salir");
 		exit(0);
-	}	//Sale break
-} 
-
-
-
+	} 
+ 
+} while ( opcion != '7') ;
+return 0 ;	
+	
+	
+	
+	
+}
+	
